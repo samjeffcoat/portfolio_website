@@ -111,10 +111,9 @@ input[class^='btn-']:hover {
 }
 
 .bottom-line {
-  height: 2px;
+  height: 10px;
   width: 3rem;
   background: $main-color;
   display: block;
   margin: 0 auto 1rem auto;
-  border: 3px solid red;
 }
