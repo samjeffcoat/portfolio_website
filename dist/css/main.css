@@ -336,8 +336,8 @@ img {
 
 #about-c .about-logos {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2rem; }
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 3rem; }
 
 #about-c img {
   width: 70%; }
@@ -409,7 +409,8 @@ img {
       width: 20px;
       line-height: 20px;
       text-align: center;
-      padding: 0.5rem; }
+      padding: 0.5rem;
+      background: #f4f4f4; }
       #main-footer .footer-content .social .fab:hover {
         background: #ffbc00; }
 
