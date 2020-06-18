@@ -293,46 +293,45 @@ img {
         background: #333;
         color: #fff; }
 
-#about-a .about-info {
-  display: grid;
-  grid-template-areas: 'bioimage bio bio' 'aw1 aw2 aw3';
-  grid-gap: 1.2rem; }
+#about-a {
+  height: 100%;
+  margin: 20px; }
+  #about-a .about-info {
+    display: grid;
+    grid-template-areas: 'bioimage bio bio' 'aw1 aw2 aw3';
+    grid-gap: 1.2rem; }
+  #about-a .bio-image {
+    grid-area: bioimage; }
+  #about-a .bio {
+    grid-area: bio;
+    border-left: 3px solid #ffbc00;
+    padding: 0.8rem; }
+  #about-a .award-1 {
+    grid-area: aw1; }
+  #about-a .award-2 {
+    grid-area: aw2; }
+  #about-a .award-3 {
+    grid-area: aw3; }
+  #about-a .award-1 .fas,
+  #about-a .award-2 .fas,
+  #about-a .award-3 .fas {
+    color: #ffbc00;
+    margin: 1rem; }
 
-#about-a .bio-image {
-  grid-area: bioimage; }
-
-#about-a .bio {
-  grid-area: bio;
-  border-left: 3px solid #ffbc00;
-  padding: 0.8rem; }
-
-#about-a .award-1 {
-  grid-area: aw1; }
-
-#about-a .award-2 {
-  grid-area: aw2; }
-
-#about-a .award-3 {
-  grid-area: aw3; }
-
-#about-a .award-1 .fas,
-#about-a .award-2 .fas,
-#about-a .award-3 .fas {
-  color: #ffbc00;
-  margin: 1rem; }
-
-#about-b .progress {
-  overflow: hidden;
-  height: 20px;
-  background: #ccc;
-  border-radius: 5px;
-  margin-bottom: 0.3rem; }
-  #about-b .progress div {
-    height: 100%;
-    color: #fff;
-    text-align: center;
-    background: #ffbc00;
-    margin-bottom: 0.6rem; }
+#about-b {
+  margin-top: 30px; }
+  #about-b .progress {
+    overflow: hidden;
+    height: 20px;
+    background: #ccc;
+    border-radius: 5px;
+    margin-bottom: 0.3rem; }
+    #about-b .progress div {
+      height: 100%;
+      color: #fff;
+      text-align: center;
+      background: #ffbc00;
+      margin-bottom: 0.6rem; }
 
 #about-c .about-logos {
   display: grid;

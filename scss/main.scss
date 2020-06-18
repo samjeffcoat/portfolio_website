@@ -199,6 +199,9 @@ img {
 #about {
   //About A
   &-a {
+    height: 100%;
+
+    margin: 20px;
     .about-info {
       display: grid;
       grid-template-areas:
@@ -237,6 +240,7 @@ img {
   // About B
 
   &-b {
+    margin-top: 30px;
     .progress {
       overflow: hidden;
       height: 20px;
