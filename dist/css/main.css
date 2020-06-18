@@ -92,7 +92,7 @@ input[class^='btn-']:hover {
 
 .items {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 0.75fr);
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); }
 
 .item {
@@ -162,6 +162,9 @@ input[class^='btn-']:hover {
     font-size: 1.2rem;
     opacity: 0.7;
     margin: 0; }
+  .item-text-description {
+    padding: 1rem;
+    color: black; }
 
 * {
   margin: 0;
